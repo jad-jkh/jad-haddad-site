@@ -21667,7 +21667,7 @@ function Ay({
 	})
 }
 async function Ha() {
-	const e = await fetch("/data.json");
+	const e = await fetch("./data.json");
 	if (!e.ok) throw new Error("Failed to fetch data");
 	return e.json()
 }
