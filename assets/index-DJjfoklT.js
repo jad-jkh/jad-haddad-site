@@ -21571,7 +21571,7 @@ function U_() {
 					duration: 500,
 					className: "cursor-pointer group",
 					children: S.jsx("img", {
-						src: "/images/JKH_logo.PNG",
+						src: "./images/JKH_logo.PNG",
 						alt: "JKH Logo",
 						className: `h-9 md:h-10 w-auto transition-all duration-300 border-black border-2
                 ${e?"invert-0 hover:invert":"invert hover:invert-0"} 
@@ -21871,7 +21871,7 @@ function Dy(e) {
 		}]
 	})(e)
 }
-const ea = ["/images/profile-pixel-jad.png", "/images/jad_w_pro.jpg", "/images/jad_w_spain.jpg"];
+const ea = ["./images/profile-pixel-jad.png", "./images/jad_w_pro.jpg", "./images/jad_w_spain.jpg"];
 
 function tO() {
 	const [e, n] = T.useState(0), [i, o] = T.useState(null), {
@@ -21900,15 +21900,15 @@ function tO() {
 			children: [S.jsxs("div", {
 				className: "absolute inset-0 z-0 pointer-events-none",
 				children: [S.jsx("div", {
-					className: "absolute inset-0 bg-[url('/images/hero-game.png')] bg-cover bg-center opacity-20"
+					className: "absolute inset-0 bg-[url('./images/hero-game.png')] bg-cover bg-center opacity-20"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('/images/bg-cabin-lake.png')] bg-cover bg-center opacity-0 animate-fade"
+					className: "absolute inset-0 bg-[url('./images/bg-cabin-lake.png')] bg-cover bg-center opacity-0 animate-fade"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('/images/bg-cherry-blossom.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:4s]"
+					className: "absolute inset-0 bg-[url('./images/bg-cherry-blossom.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:4s]"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('/images/bg-retro-city.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:8s]"
+					className: "absolute inset-0 bg-[url('./images/bg-retro-city.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:8s]"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('/images/bg-tropical-pixel.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:12s]"
+					className: "absolute inset-0 bg-[url('./images/bg-tropical-pixel.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:12s]"
 				}), S.jsx("div", {
 					className: "absolute inset-0 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px] opacity-10"
 				})]
@@ -22034,7 +22034,7 @@ function tO() {
 						}), S.jsxs("div", {
 							className: "flex flex-wrap gap-4 justify-center md:justify-start",
 							children: [S.jsxs("a", {
-								href: "/images/RES_PUB.pdf",
+								href: "./images/RES_PUB.pdf",
 								target: "_blank",
 								rel: "noopener noreferrer",
 								className: "inline-flex items-center gap-2 px-6 py-3 bg-black text-white border-4 border-black font-bold uppercase tracking-wide shadow-[6px_6px_0px_0px_rgba(0,0,0,0.3)] hover:bg-primary hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,0.4)] hover:-translate-y-1 transition-all",
@@ -22089,7 +22089,7 @@ function tO() {
 								children: [S.jsx("div", {
 									className: "p-1 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-[#500001]",
 									children: S.jsx("img", {
-										src: "/images/tamu-logo.jpg",
+										src: "./images/tamu-logo.jpg",
 										alt: "Texas A&M",
 										className: "w-12 h-12 object-contain"
 									})
@@ -22173,9 +22173,9 @@ function tO() {
                       className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
                       children: u?.map((h, g) => {
                         const v = {
-                            "Smart Table Solutions": "/images/project-smart-table.png",
-                            SoilSense: "/images/project-soilsense.png",
-                            "Wi-Fi Desk Buddy": "/images/project-wifi-clock.png"
+                            "Smart Table Solutions": "./images/project-smart-table.png",
+                            SoilSense: "./images/project-soilsense.png",
+                            "Wi-Fi Desk Buddy": "./images/project-wifi-clock.png"
                           } [h.title],
                           x = h.title === "Smart Table Solutions";
                         return S.jsx(Ut.div, {
@@ -22217,7 +22217,7 @@ function tO() {
                                            children: [S.jsx("div", {
                                              className: "w-10 h-10 bg-white border-2 border-black shadow-md flex items-center justify-center cursor-pointer",
                                              children: S.jsx("img", {
-                                               src: "/images/JKH_white.PNG",
+                                               src: "./images/JKH_white.PNG",
                                                alt: "JKH Experience",
                                                className: "w-10 h-10 object-contain"
                                              })
@@ -22475,7 +22475,7 @@ function tO() {
 									children: [S.jsxs("div", {
 										className: "w-14 h-14 border-2 border-black bg-white flex items-center justify-center overflow-hidden",
 										children: [S.jsx("img", {
-											src: `/images/org-${h.id}.png`,
+											src: `./images/org-${h.id}.png`,
 											alt: h.organization,
 											className: "w-12 h-12 object-contain",
 											onError: y => {
@@ -22667,7 +22667,7 @@ function tO() {
                    S.jsxs("div", {
                      className: "flex flex-wrap justify-center gap-4 mb-8",
                      children: [S.jsx("a", {
-                       href: "/images/RES_PUB.pdf",
+                       href: "./images/RES_PUB.pdf",
                        target: "_blank",
                        rel: "noopener noreferrer",
                        className: "inline-flex items-center gap-2 px-3 py-3 bg-white text-black border-4 border-white font-bold uppercase tracking-wide shadow-[4px_4px_0px_0px_rgba(255,255,255,0.3)] hover:bg-[gray] hover:border-[gray] transition-all",
