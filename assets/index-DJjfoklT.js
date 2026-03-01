@@ -22817,7 +22817,7 @@ function tO() {
 function nO() {
 	return S.jsxs(PS, {
 		children: [S.jsx(hm, {
-			path: "/",
+			path: "/jad-haddad-site/",
 			component: tO
 		}), S.jsx(hm, {
 			component: oC
