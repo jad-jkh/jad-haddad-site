@@ -22817,7 +22817,7 @@ function tO() {
 function nO() {
 	return S.jsxs(PS, {
 		children: [S.jsx(hm, {
-			path: "jad-jkh.github.io",
+			path: "/jad-jkh.github.io/",
 			component: tO
 		}), S.jsx(hm, {
 			component: oC
