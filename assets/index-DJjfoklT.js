@@ -21900,15 +21900,15 @@ function tO() {
 			children: [S.jsxs("div", {
 				className: "absolute inset-0 z-0 pointer-events-none",
 				children: [S.jsx("div", {
-					className: "absolute inset-0 bg-[url('./images/hero-game.png')] bg-cover bg-center opacity-20"
+					className: "absolute inset-0 bg-[url('/images/hero-game.png')] bg-cover bg-center opacity-20"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('./images/bg-cabin-lake.png')] bg-cover bg-center opacity-0 animate-fade"
+					className: "absolute inset-0 bg-[url('/images/bg-cabin-lake.png')] bg-cover bg-center opacity-0 animate-fade"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('./images/bg-cherry-blossom.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:4s]"
+					className: "absolute inset-0 bg-[url('/images/bg-cherry-blossom.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:4s]"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('./images/bg-retro-city.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:8s]"
+					className: "absolute inset-0 bg-[url('/images/bg-retro-city.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:8s]"
 				}), S.jsx("div", {
-					className: "absolute inset-0 bg-[url('./images/bg-tropical-pixel.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:12s]"
+					className: "absolute inset-0 bg-[url('/images/bg-tropical-pixel.png')] bg-cover bg-center opacity-0 animate-fade [animation-delay:12s]"
 				}), S.jsx("div", {
 					className: "absolute inset-0 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px] opacity-10"
 				})]
